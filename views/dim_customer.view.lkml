@@ -2,9 +2,9 @@
 # YAML: tables[0]
 
 view: dim_customer {
-  sql_table_name: WIDE_WORLD_IMPORTERS.PROCESSED_GOLD.DIM_CUSTOMER ;;
+  sql_table_name:salesengineering-2022.PROCESSED_GOLD.DIM_CUSTOMER ;;
   label: "Customers"
-  description: "Provides a centralized repository for capturing key details about customers, including their names, contact information, and financial attributes."
+
 
   # ── Dimensions ─────────────────────────────────────────────────────
 

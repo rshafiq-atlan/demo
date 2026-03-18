@@ -2,9 +2,9 @@
 # YAML: tables[2]
 
 view: dim_stockitem {
-  sql_table_name: WIDE_WORLD_IMPORTERS.PROCESSED_GOLD.DIM_STOCKITEM ;;
+  sql_table_name: salesengineering-2022.PROCESSED_GOLD.DIM_STOCKITEM ;;
   label: "Products"
-  description: "Comprehensive record of stock items, capturing details like item name, brand, color, package type, size, and pricing."
+
 
   dimension: stockitemid {
     primary_key: yes

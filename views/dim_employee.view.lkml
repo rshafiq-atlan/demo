@@ -2,9 +2,8 @@
 # YAML: tables[1]
 
 view: dim_employee {
-  sql_table_name: WIDE_WORLD_IMPORTERS.PROCESSED_GOLD.DIM_EMPLOYEE ;;
+  sql_table_name: salesengineering-2022.PROCESSED_GOLD.DIM_EMPLOYEE ;;
   label: "Sales Reps"
-  description: "Contains information about sales personnel, including their unique identifiers and full names."
 
   dimension: salespersonid {
     primary_key: yes

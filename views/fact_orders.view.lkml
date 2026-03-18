@@ -2,9 +2,9 @@
 # YAML: tables[3] — the fact table with orders, quantities, prices
 
 view: fact_orders {
-  sql_table_name: WIDE_WORLD_IMPORTERS.PROCESSED_GOLD.FACT_ORDERS ;;
+  sql_table_name: salesengineering-2022.PROCESSED_GOLD.FACT_ORDERS ;;
   label: "Orders"
-  description: "Serves as a comprehensive record of customer orders, detailing each order's unique identifiers, customer and salesperson IDs, order descriptions, dates, tax rates, quantities, unit prices, and associated stock items."
+
 
   # ── Dimensions (from YAML dimensions) ─────────────────────────────
 

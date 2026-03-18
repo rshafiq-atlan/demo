@@ -1,6 +1,6 @@
 connection: "rs-db"  # Your BigQuery or Snowflake connection name in Looker
 
-label: "Sales Domain (Atlan Enhanced)"
+label: "Sales Domain (Old)"
 include: "/views/*.view.lkml"
 
 # ── Explores (entry points for users) ─────────────────────────────────

@@ -7,7 +7,7 @@ include: "/views/*.view.lkml"
 # This is roughly equivalent to your top-level YAML name + relationships
 
 explore: fact_orders {
-  label: "Sales Orders"
+  label: "Sales Domain (Atlan Enhanced)"
 
 
   # relationship: ORDERS_TO_CUSTOMER
